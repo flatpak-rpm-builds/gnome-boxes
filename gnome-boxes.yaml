@@ -1,0 +1,391 @@
+---
+document: modulemd
+version: 2
+data:
+  summary: A simple GNOME 3 application to access remote or virtual systems
+  description: >-
+    gnome-boxes lets you easily create, setup, access, and use:   * remote machines  
+    * remote virtual machines   * local virtual machines   * When technology permits,
+    set up access for applications on     local virtual machines
+  license:
+    module:
+    - MIT
+  dependencies:
+  - buildrequires:
+      flatpak-common: [f33]
+      flatpak-runtime: [f33]
+      platform: [f33]
+    requires:
+      flatpak-common: [f33]
+      flatpak-runtime: [f33]
+      platform: [f33]
+  profiles:
+    default:
+      rpms:
+      - gnome-boxes
+  components:
+    rpms:
+#      openwsman:
+#        rationale: Runtime dependency
+#        ref: f33
+      capstone:
+        rationale: Runtime dependency
+        ref: f33
+      libev:
+        rationale: Runtime dependency
+        ref: f33
+#      libiscsi:
+#        rationale: Runtime dependency
+#        ref: f33
+      libvirt-glib:
+        rationale: Runtime dependency
+        ref: f33
+#      parted:
+#        rationale: Runtime dependency
+#        ref: f33
+      ipxe:
+        rationale: Runtime dependency
+        ref: f33
+      lzop:
+        rationale: Runtime dependency
+        ref: f33
+      gssproxy:
+        rationale: Runtime dependency
+        ref: f33
+#      fuse3:
+#        rationale: Runtime dependency
+#        ref: f33
+      dnsmasq:
+        rationale: Runtime dependency
+        ref: f33
+#      nmap:
+#        rationale: Runtime dependency
+#        ref: f33
+      spice:
+        rationale: Runtime dependency
+        ref: f33
+      phodav:
+        rationale: Runtime dependency
+        ref: f33
+      seabios:
+        rationale: Runtime dependency
+        ref: f33
+#      glusterfs:
+#        rationale: Runtime dependency
+#        ref: f33
+      libssh2:
+        rationale: Runtime dependency
+        ref: f33
+      spice-gtk:
+        rationale: Runtime dependency
+        ref: f33
+      augeas:
+        rationale: Runtime dependency
+        ref: f33
+      corosync:
+        rationale: Runtime dependency
+        ref: f33
+#      numad:
+#        rationale: Runtime dependency
+#        ref: f33
+      qemu:
+        rationale: Runtime dependency
+        ref: f33
+      bridge-utils:
+        rationale: Runtime dependency
+        ref: f33
+      liburing:
+        rationale: Runtime dependency
+        ref: f33
+#      libcacard:
+#        rationale: Runtime dependency
+#        ref: f33
+#      ebtables:
+#        rationale: Runtime dependency
+#        ref: f33
+      vte291:
+        rationale: Runtime dependency
+        ref: f33
+#      cdrkit:
+#        rationale: Runtime dependency
+#        ref: f33
+      fmt:
+        rationale: Runtime dependency
+        ref: f33
+      freerdp:
+        rationale: Runtime dependency
+        ref: f33
+      libvirt:
+        rationale: Runtime dependency
+        ref: f33
+#      iscsi-initiator-utils:
+#        rationale: Runtime dependency
+#        ref: f33
+#      dtc:
+#        rationale: Runtime dependency
+#        ref: f33
+      gnome-boxes:
+        rationale: Runtime dependency
+        ref: f33
+      sheepdog:
+        rationale: Runtime dependency
+        ref: f33
+      mtools:
+        rationale: Runtime dependency
+        ref: f33
+#      nvml:
+#        rationale: Runtime dependency
+#        ref: f33
+      libnfs:
+        rationale: Runtime dependency
+        ref: f33
+      netcf:
+        rationale: Runtime dependency
+        ref: f33
+#      device-mapper-persistent-data:
+#        rationale: Runtime dependency
+#        ref: f33
+      dmidecode:
+        rationale: Runtime dependency
+        ref: f33
+#      edk2:
+#        rationale: Runtime dependency
+#        ref: f33
+#      linux-atm:
+#        rationale: Runtime dependency
+#        ref: f33
+      polkit-pkla-compat:
+        rationale: Runtime dependency
+        ref: f33
+      libhandy:
+        rationale: Runtime dependency
+        ref: f33
+#      ding-libs:
+#        rationale: Runtime dependency
+#        ref: f33
+      libosinfo:
+        rationale: Runtime dependency
+        ref: f33
+      soxr:
+        rationale: Runtime dependency
+        ref: f33
+#      brltty:
+#        rationale: Runtime dependency
+#        ref: f33
+      rpcbind:
+        rationale: Runtime dependency
+        ref: f33
+      virglrenderer:
+        rationale: Runtime dependency
+        ref: f33
+#      zfs-fuse:
+#        rationale: Runtime dependency
+#        ref: f33
+#      nfs-utils:
+#        rationale: Runtime dependency
+#        ref: f33
+      osinfo-db-tools:
+        rationale: Runtime dependency
+        ref: f33
+      compat-readline5:
+        rationale: Runtime dependency
+        ref: f33
+      osinfo-db:
+        rationale: Runtime dependency
+        ref: f33
+      libaio:
+        rationale: Runtime dependency
+        ref: f33
+      softhsm:
+        rationale: Runtime dependency
+        ref: f33
+      sgabios:
+        rationale: Runtime dependency
+        ref: f33
+#      libqb:
+#        rationale: Runtime dependency
+#        ref: f33
+#      ceph:
+#        rationale: Runtime dependency
+#        ref: f33
+      psmisc:
+        rationale: Runtime dependency
+        ref: f33
+      radvd:
+        rationale: Runtime dependency
+        ref: f33
+      libnftnl:
+        rationale: Runtime dependency
+        ref: f33
+      gtk-vnc:
+        rationale: Runtime dependency
+        ref: f33
+#      device-mapper-multipath:
+#        rationale: Runtime dependency
+#        ref: f33
+      fuse:
+        rationale: Runtime dependency
+        ref: f33
+#      xen:
+#        rationale: Runtime dependency
+#        ref: f33
+#      isns-utils:
+#        rationale: Runtime dependency
+#        ref: f33
+      ndctl:
+        rationale: Runtime dependency
+        ref: f33
+#      lttng-ust:
+#        rationale: Runtime dependency
+#        ref: f33
+      libslirp:
+        rationale: Runtime dependency
+        ref: f33
+#      iproute:
+#        rationale: Runtime dependency
+#        ref: f33
+#      mdevctl:
+#        rationale: Runtime dependency
+#        ref: f33
+      snappy:
+        rationale: Runtime dependency
+        ref: f33
+      userspace-rcu:
+        rationale: Runtime dependency
+        ref: f33
+      quota:
+        rationale: Runtime dependency
+        ref: f33
+      lzo:
+        rationale: Runtime dependency
+        ref: f33
+      usbredir:
+        rationale: Runtime dependency
+        ref: f33
+      boost:
+        rationale: Runtime dependency
+        ref: f33
+#      chkconfig:
+#        rationale: Runtime dependency
+#        ref: f33
+      cyrus-sasl:
+        rationale: Runtime dependency
+        ref: f33
+      groff:
+        rationale: Runtime dependency
+        ref: f33
+#      jq:
+#        rationale: Runtime dependency
+#        ref: f33
+#      kbd:
+#        rationale: Runtime dependency
+#        ref: f33
+      keyutils:
+        rationale: Runtime dependency
+        ref: f33
+      kmod:
+        rationale: Runtime dependency
+        ref: f33
+      libverto:
+        rationale: Runtime dependency
+        ref: f33
+#      lvm2:
+#        rationale: Runtime dependency
+#        ref: f33
+      numactl:
+        rationale: Runtime dependency
+        ref: f33
+      oniguruma:
+        rationale: Runtime dependency
+        ref: f33
+      polkit:
+        rationale: Runtime dependency
+        ref: f33
+#      rdma-core:
+#        rationale: Runtime dependency
+#        ref: f33
+#      systemd:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-CLASS:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Carp:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Encode:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Exporter:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Getopt-Long:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-MIME-Base64:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-PathTools:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Pod-Perldoc:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Pod-Usage:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Scalar-List-Utils:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Socket:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Storable:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Text-ParseWords:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-constant:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-parent:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-podlators:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Term-Cap:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Term-ANSIColor:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Pod-Simple:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-HTTP-Tiny:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-File-Temp:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Time-Local:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Text-Tabs+Wrap:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-Pod-Escapes:
+#        rationale: Runtime dependency
+#        ref: f33
+#      perl-File-Path:
+#        rationale: Runtime dependency
+#        ref: f33
+      gnome-boxes:
+        rationale: Application package
+        ref: f33
+        buildorder: 100
